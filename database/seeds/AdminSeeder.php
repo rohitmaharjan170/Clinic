@@ -15,8 +15,8 @@ class AdminSeeder extends Seeder
     {
         DB::table('users')->insert([
             'name' => 'Admin_GMSH',
-            'email' => 'info@ganeshmansinghhospital.com',
-            'password' => bcrypt('admin@gmsh'),
+            'email' => 'admin@clinic',
+            'password' => bcrypt('gimmesomemilk'),
         ]);
     }
 }
